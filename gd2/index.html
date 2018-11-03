@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tư vấn mỹ phẩm</title>
+	 <link rel="stylesheet" href="mycss.css" >
+	 <link href="https://fonts.googleapis.com/css?family=Mali" rel="stylesheet">
+	 <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ 
+</head>
+<body>
+	<ul style="background-color: #F572AB;">
+    <div class="row" style="margin-top: 0.5rem; margin-bottom: 0.5rem;">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <span style="font-family: 'Mali', cursive; font-size: 33px; color: white;">FILTER COSMETICS</span>
+        <li><a href="#home">About us</a></li>
+        <li><a href="#news">Body and hair</a></li>
+        <li><a href="#contact">Skin care</a></li>
+        <li><a href="#about">Make up </a></li>
+      </div>
+    </div>
+  </ul>
+    <div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-10" style="margin-top: 1.5rem; margin-bottom: 1.5rem;">
+      <input type="text" placeholder="Make up" class="a"><button class="b" style="margin-left: 10px; background-color: #fee5ed;">Tìm kiếm</button></div>
+    </div>
+	<div style="margin-top: 5px;">
+    <center>
+		<span class="d">Các xu hướng make up</span>
+    <button class="c" style="background-color: #FFAA8A; border: 1px solid #FFAA8A;">Tự nhiên, đơn giản</button>
+    <button class="c" style="background-color: #E87ED8; border: 1px solid #E87ED8">Truyền thống</button>
+    <button class="c" style="background-color: #A297FF; border: 1px solid #A297FF">Tông nude ấn tượng</button>
+    <button class="c" style="background-color: #7ED6E8; border: 1px solid #7ED6E8">Tông màu đỏ rượu ấm áp</button>
+	 </center>
+  </div>
+    <!-- Wrapper container -->
+  <div class="container">
+    <div class="row">
+      <!-- Wrapper filter -->
+      <div class="col-md-3">
+          <div>
+            <center style="margin-right: 15px;">
+              <h3 style="color: #000000;">Bộ lọc sản phẩm</h3>
+            </center>
+          </div>
+          <div>
+            <input list="Tinhtrangda" placeholder="Tình trạng da" class="inputData"/>
+            <datalist id="Tinhtrangda">
+              <option value="Khoẻ mạnh"></option>
+              <option value="Lão hoá"></option>
+              <option value="Nhiều dầu"></option>
+            </datalist><br/>
+            <input list="mauda" placeholder="Màu da" class="inputData"/>
+            <datalist id="mauda">
+              <option value="Rất sáng"></option>
+              <option value="sáng"></option>
+              <option value="Sáng - Trung bình"></option>
+              <option value="Trung bình - Nâu"></option>
+              <option value="Nâu"></option>
+              <option value="Ngăm"></option>
+            </datalist><br/>
+            <input list="Loaida"  placeholder="Loại da" class="inputData"/>
+            <datalist id="Loaida">
+              <option value="Da thường"></option>
+              <option value="Da lão hoá"></option>
+              <option value="Da nhạy cảm"></option>
+            </datalist><br/>
+            <input list="giatien" placeholder="Giá tiền" class="inputData"/>
+            <datalist id="giatien">
+              <option value="< 150.000vnđ"></option>
+              <option value="150.000vnđ-300.000vnđ"></option>
+              <option value="300.000vnđ-500.000vnđ"></option>
+              <option value="500.000vnđ-1.000.000vnđ"></option>
+              <option value="< 1.000.000vnđ"></option>
+            </datalist><br/>
+            <input type="number" id="Tuổi" name="Tuổi" value="20"  placeholder="Tuổi" class="inputData"/> <br/>
+            <input list="thuonghieu" placeholder="Thương hiệu" class="inputData"/>
+            <datalist id="thuonghieu">
+              <option value="3CE"></option>
+              <option value="Olay"></option>
+              <option value="Neutrogena"></option>
+              <option value="MAC"></option>
+              <option value="Nivea"></option>
+              <option value="Lancôme"></option>
+              <option value="Avon"></option>
+              <option value="Dove"></option>
+              <option value="Biore"></option>
+            </datalist><br/>
+            <input list="xuatxu" placeholder="Xuất xứ" class="inputData"/>
+            <datalist id="xuatxu">
+              <option value="Nhật Bản"></option>
+              <option value="Mỹ"></option>
+              <option value="Pháp"></option>
+              <option value="Hàn quốc"></option>
+              <option value="Anh"></option>
+              <option value="Nga"></option>
+              <option value="Việt Nam"></option>
+              <option value="Thái Lan"></option>
+            </datalist><br/>
+            <input list="nhacungcap" placeholder="Nhà cung cấp" class="inputData"/>
+            <datalist id="nhacungcap">
+              <option value="Lazada.vn"></option>
+              <option value="Tiki.vn"></option>
+              <option value="Adayroi.com"></option>
+           </datalist><br/>
+              <button style=" background-color: #fee5ed; border-color: #fee5ed;" class="a">Tìm kiếm</button> 
+        </div>
+  </div>
+  <!-- / Wrapper filter -->
+
+  <!-- Wrapper products -->
+        <div class="col-md-9" style="margin-top: 10px;">
+          <h3 style="text-align: center; color: #000000">Các sản phẩm đề xuất</h3>
+            <div class="col-lg-4 col-md-3">
+              <div class="thumbnail">
+                <a href="images/Kem-lot-nen-BB" target="_blank">
+                  <img src="images/Kem-lot-nen-BB.jpg" alt="Lights" class="formatImage">
+                  <div class="caption">
+                    <p>Kem lót nền BB Cream</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-3">
+              <div class="thumbnail">
+                <a href="images/SON KEM LÌ-3CE.jpg" target="_blank">
+                  <img src="images/SON KEM LÌ-3CE.jpg" alt="Fjords" class="formatImage img-responsive">
+                  <div class="caption">
+                    <p>SON KEM LÌ-3CE</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-3">
+              <div class="thumbnail">
+                <a href="images/Kem-lot-trang-điểm-Ohui" target="_blank">
+                  <img src="images/Kem-lot-trang-điểm-Ohui.jpg" alt="Lights" class="formatImage img-responsive">
+                  <div class="caption">
+                    <p>Kem lót trang điểm Ohui</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-3">
+              <div class="thumbnail">
+                <a href="images/SON-M.A.C-MATTE-LIPSTICKjpg" target="_blank">
+                  <img src="images/SON-M.A.C-MATTE-LIPSTICK.jpg" alt="Lights" class="formatImage img-responsive">
+                  <div class="caption">
+                    <p>SON-M.A.C-MATTE-LIPSTICK</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-3">
+              <div class="thumbnail">
+                <a href="images/kem-lot-trang-diem-chong-nang.jpg" target="_blank">
+                  <img src="images/kem-lot-trang-diem-chong-nang.jpg" alt="Lights" class="formatImage img-responsive">
+                  <div class="caption">
+                    <p>kem lót trang điểm chống nắng</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-3">
+              <div class="thumbnail">
+                <a href="images/SON-3CE-MATTE-LIPSTICK-VO-DEN4" target="_blank">
+                  <img src="images/SON-3CE-MATTE-LIPSTICK-VO-DEN4.jpg" alt="Lights" class="formatImage img-responsive">
+                  <div class="caption">
+                    <p>SON-3CE-MATTE-LIPSTICK</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+        </div>
+        <!-- /Wrapper products -->
+    </div>
+    
+  </div>
+  <!-- /Wrapper container -->
+  
+
+  <h3 style="color: #000000; text-align: center; margin-bottom: 2rem;">Các sản phẩm khác</h3>
+  <div id="myCarousel" class="carousel slide text-center" data-ride="carousel" style="padding: 90px;background-color: #fee5ed !important;">
+     <!-- Indicators -->
+      
+        <ol class="carousel-indicators" >
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+  
+  <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <div>
+            <div class="col-lg-3 thumbnail">
+		          <a href="images/a" target="_blank">
+              <img src="images/a.jpg" alt="Lights" class="formatImage img-responsive"">
+              <div class="caption">
+                <p>Kem nền Clinique</p>
+              </div>
+              </a>
+            </div>
+        		<div class="col-lg-3 thumbnail">
+        		  <a href="images/b" target="_blank">
+                <img src="images/b.jpg" alt="Lights" class="formatImage img-responsive">
+                <div class="caption">
+                  <p>Nước tẩy trang Hada labo</p>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-3 thumbnail">
+		          <a href="images/c" target="_blank">
+              <img src="images/c.jpg" alt="Lights" class="formatImage img-responsive"">
+              <div class="caption">
+                <p>Kem dưỡng trắng da Hada labo</p>
+              </div>
+              </a>
+            </div>
+        		<div class="col-lg-3 thumbnail">
+        		  <a href="images/d" target="_blank">
+              <img src="images/d.jpg" alt="Lights" class="formatImage img-responsive"">
+                <div class="caption">
+                  <p>Nước hoa Paris CHANEL GABRIELLE</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="col-lg-3 thumbnail">
+        		<a href="images/e" target="_blank">
+            <img src="images/e.jpg" alt="Lights" class="formatImage img-responsive">
+            <div class="caption">
+              <p>Nước tẩy trang NIVEA</p>
+            </div>
+            </a>
+          </div>
+          <div class="col-lg-3 thumbnail">
+        		<a href="images/f" target="_blank">
+            <img src="images/f.jpg" alt="Lights" class="formatImage img-responsive">
+            <div class="caption">
+              <p>SON ECOLE</p>
+            </div>
+            </a>
+          </div>
+          <div class="col-lg-3 thumbnail">
+		        <a href="images/g" target="_blank">
+            <img src="images/g.jpg" alt="Lights" class="formatImage img-responsive">
+            <div class="caption">
+              <p>Mascara FLOWER</p>
+            </div>
+            </a>
+          </div>
+          <div class="col-lg-3 thumbnail">
+		        <a href="images/h" target="_blank">
+            <img src="images/h.jpg" alt="Lights" class="formatImage img-responsive">
+            <div class="caption">
+              <p>Mascara the Colo Ssal Volum Express</p>
+            </div>
+            </a>
+          </div>
+        </div>
+        <div class="item">
+          <div class="col-lg-3 thumbnail">
+		        <a href="images/i" target="_blank">
+            <img src="images/i.jpg" alt="Lights" class="formatImage img-responsive">
+            <div class="caption">
+              <p>Mascara Kpress control</p>
+            </div>
+            </a>
+          </div>
+          <div class="col-lg-3 thumbnail">
+		        <a href="images/j" target="_blank">
+            <img src="images/j.jpg" alt="Lights" class="formatImage img-responsive">
+            <div class="caption">
+              <p>Phấn APRILSKIN</p>
+            </div>
+            </a>
+          </div>
+          <div class="col-lg-3 thumbnail">
+  		      <a href="images/k" target="_blank">
+            <img src="images/k.jpg" alt="Lights" class="formatImage img-responsive">
+            <div class="caption">
+              <p>Phấn THORAKAO</p>
+            </div>
+            </a>
+          </div>
+          <div class="col-lg-3 thumbnail">
+  		      <a href="images/l" target="_blank">
+            <img src="images/l.jpg" alt="Lights" class="formatImage img-responsive">
+            <div class="caption">
+              <p>Nước tẩy trang LA ROCHE-POSAY</p>
+            </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+  <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+  </div>
+  <div style="background-color: #F4E5FF">
+  <center style="margin-top: 3rem;">
+    <h3>Từ khóa phổ biến</h3>
+    <a href="#">Kem lót</a><a href="#">Kem nền</a><a href="#">Son 3CE</a><a href="#">Son kem lì</a><a href="#">Kem dưỡng da ban đêm</a><a href="#">Kem dưỡng da ban ngày</a><a href="#">Nivea</a><a href="#">SON-3CE-MATTE-LIPSTICK</a><a href="#">Nước hoa</a><a href="#">Hada labo</a><a href="#">Mascara</a><a href="#">Kem dưỡng trắng da</a><br><a href="#">Dưỡng tóc</a><a href="#">Phấn hồng</a><a href="#">phấn nền</a><a href="#">Kem che khuyết điểm</a><a href="#">Kem dưỡng da</a><a href="#">Son hồng đào</a><a href="#">kem-lot-trang-diem-chong-nang</a><br><a href="#">Kem chống nắng skin aqua</a><a href="#">Chì kẻ mày</a><a href="#">Skin aqua</a><a href="#">Hộp phấn trang điểm Marionnaud Wild Flower Rock Star</a><br><a href="#">Mỹ phẩm Shiseido Aqualabel</a><a href="#">Kem dưỡng giảm mụn thông thoáng lỗ chân lông và ngừa thâm La Roche Posay Effaclar Duo+ 40ml và Gel rửa mặt dành cho da dầu mụn Effaclar gel 50ml</a><br><a href="#">Kem dưỡng trắng tối ưu Hada Labo Perfect White Cream 50g</a><a href="#">Kem rửa mặt Hada Labo</a><a href="#">Sirum kiều chính hãng trị mụn</a><a href="#">Xịt khoáng dưỡng da Vichy</a><br><a href="#">Son lì KISSON Matte Lipstick</a><a href="#">Kem nền mịn lì tiệp màu da Maybelline New York Fit Me</a><a href="#">Chì xé</a><a href="#">Khuôn kẻ mày</a><a href="#">Nước tẩy trang L'Oreal Paris Micellar Water</a><br><a href="#">Bút che khuyết điểm</a><a href="#">Son tint Yanse cao cấp</a>
+  </center>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>

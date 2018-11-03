@@ -1,0 +1,70 @@
+ .my-btn{
+
+    background-color: #f54a7e !important;
+    border-color: #f54a7e !important ;
+}
+.my-font-h1{
+	font-family: roboto;
+    margin-bottom: 0px;
+    padding: 10px 0px;
+}
+.my-font-h4{
+	font-family: 'Dekko', cursive;
+}
+.my-font{
+	font-family: 'Arima Madurai', cursive;
+}
+.font-p{
+    font-family: 'Roboto Slab', serif;
+}
+.bg-light{
+	background-color: #FFFFFF !important;
+}
+.center{
+	text-align: center;		
+}
+header.masthead {
+	background: url(../img/1794.jpg) !important;
+	background-size: cover !important;
+	padding-bottom: 21rem !important;
+}
+.nav-top{
+	list-style-type: none;
+    padding-top: 10px;
+}
+.nav-top>ul>li{
+     display: inline;
+     padding: 10px 15px;
+     position: relative;
+     line-height: 20px;
+ }
+ .nav-top ul li a {
+    text-decoration: none;
+    color: white;
+ }
+ .nav-top{
+    text-align: left;
+   	font-family: inherit;
+    font-size: 15px;
+    height: 40px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    background: #F572AB;   
+}
+.nav-top ul li:hover{
+    background: #f54a7e; 
+    transition: all 0.25s;
+}
+.nav-top>ul>li:first-child { 
+    background: #f54a7e;
+}
+.form-control{
+	    padding: 1.475rem .75rem !important;
+}
+.testimonials{
+	padding: 0px !important;
+}
+.nav-top>ul{
+	margin-left:110px;
+}
